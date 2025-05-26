@@ -27,4 +27,5 @@ create table sale_items(id int auto_increment primary key, sale_id int not null,
                             stored,
                         foreign key(sale_id) references sales(id),
                         foreign key(product_id) references product(id));
+                        
 insert into staff values(1, "pvt_manager_dummy", "pvt_20010303_i", "manager");

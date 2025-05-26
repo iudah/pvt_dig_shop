@@ -1,6 +1,6 @@
 <?php
 
-$host = "127.0.0.1";
+$host = "db"; // docker address for db host service
 $user = "root";
 $pass = "password";
 $db = "shop_db";
