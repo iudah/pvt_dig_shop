@@ -2,6 +2,7 @@ version: "3.8"
 services:
   web:
     build: .
+    image: iudah/pvt_dig_shop_demo:latest
     ports:
       - "80:80"
     depends_on:
