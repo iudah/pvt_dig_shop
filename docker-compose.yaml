@@ -4,7 +4,6 @@ services:
     build: .
     ports:
       - "80:80"
-    volumes:
     depends_on:
       - db
   db:
